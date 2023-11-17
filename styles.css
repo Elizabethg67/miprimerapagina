@@ -1,0 +1,128 @@
+h1 {                                                  
+    text-align: center;                    
+    color: rgb(240, 232, 232);
+    padding: 40px;
+    padding-bottom: 3px;
+    margin-left: 50PX;
+    margin-right: 10%;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+} 
+.parrafo-uno { 
+    padding: 1px 5px 15px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: blueviolet;
+    
+}
+
+.parrafo-dos{
+    padding: 1px 5px 15px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   
+   
+} 
+                                       
+ol li{            /* Lista de la página web*/                      
+    color: blue;       
+} 
+
+#contenedor-principal{    /* Recuadro Principal- título*/
+    background-color: rgb(248, 247, 246);
+    border: 5px solid rgb(8, 8, 8);  
+}
+
+.border{                         /* Bordes segundo recuadro (párrafos)*/
+    border: 5px solid rgb(12, 12, 12);
+}
+   
+body div#contenedor-principal h1{
+    color: rgb(252, 248, 248);    /* Título principal*/
+}
+
+header{                       /* Diseño de recuadro de el menú de navegación*/
+    display: flex;
+    background-color: rgb(70, 69, 67);   /* Color del menú de navegación*/
+    align-items: center;                    /* Alineación del texto*/
+    justify-content: space-between;         /* Justificación del texto*/
+    width: 100%;
+}
+
+
+header nav ul{             /* Diseño de recuadro de el menú de navegación*/
+    display: flex;
+    gap: 1.1em;
+}
+ol,
+ul{
+    list-style: none; /* Quitar puntos de navegación (menú)*/
+}
+
+header nav ul li a{
+    color: rgb(240, 232, 232); /* Color de las letras del menú*/
+}
+
+.seccion-1{  /* Aquí se mueve historia (texto y primera imagen)*/
+    background-color: rgb(246, 247, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;  /* Esto le da el espacio al texto y la imagen*/
+}
+
+.seccion-2 img{
+    width: 100%; /* Tamaño de la imagen */
+    
+}
+
+footer{
+    padding: 1%;
+    width: auto;
+    background-color: rgb(70, 69, 67);
+    color: rgb(246, 247, 245);
+}
+
+/* tarjetas */
+
+.seccion-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.caja{  
+    width: 25%;
+    height: 400px;
+    padding: 40px;
+    
+    
+}
+
+img{
+    width: 100%;
+    height: auto; 
+    border-radius: 10%;
+}
+
+#Personajes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+
+
+
